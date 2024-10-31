@@ -1,0 +1,272 @@
+body {
+  width: auto;
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.pacifico-regularOG {
+  color: rgb(55, 55, 57);
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  font-style: light;
+  margin-left: 600px;
+  margin-top: 50px;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: light;
+  margin-bottom: 0px;
+
+}
+
+.pacifico-regular2 {
+  color: rgb(68, 66, 64);
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: light;
+  margin-top: -40px;
+  margin-bottom: 0px;
+
+}
+
+.pacifico-regular3 {
+  color: aliceblue;
+  margin-top: 175px;
+  margin-left: 300x;
+  margin-bottom: 30px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: light;
+
+
+}
+
+.comfort {
+  margin-top: 10px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.comfortta {
+  margin-top: 10px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  
+
+}
+
+.comfortto {
+  color: aliceblue;
+  margin-top: 30px;
+  margin-bottom: 200px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.prompt-extralight {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 10%;
+}
+
+h1 {
+  font-size: 60px;
+  color: rgb(68, 66, 64);
+}
+
+h6 {
+  margin-bottom: 0px;
+}
+
+.box-img {
+  background-position: center;
+  background-image: url(resources/headban.jpg);
+  background-size: cover;
+  margin-bottom: 0px;
+
+
+}
+
+.box-img2 {
+  background-position: center;
+  background-image: url(resources/46FBF159-E96D-4FB6-A9FE-4E81F8E70B29.jpg);
+  background-size: cover;
+  margin-bottom: 0px;
+
+
+}
+
+/*Top box*/
+
+.image-box img {
+  background-image: url(resources/S__23715852.jpg);
+  width: 100%;
+  /* ขยายรูปภาพให้เต็มความกว้างของกล่อง */
+  height: auto;
+  /* ความสูงจะปรับตามอัตราส่วนของรูปภาพ */
+  display: block;
+  /* เอาช่องว่างรอบๆ รูปภาพออก */
+}
+
+
+span {
+  color: rgb(68, 66, 64);
+}
+
+
+.b1 {
+  margin-top: -10px;
+}
+
+.b2 {
+  margin-left: 35px;
+  margin-top: 30px;
+  color: rgb(68, 66, 64);
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: light;
+
+}
+
+.b3 {
+  color: rgb(68, 66, 64);
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  margin-top: -10px;
+  margin-inline-end: 40px;
+}
+
+.b4 {
+  color: rgb(33, 33, 34);
+  font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  margin-top: 50px;
+  margin-inline-end: 40px;
+}
+
+.b5 {
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: light;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-inline-end: 40px;
+}
+
+.b6 {
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  margin-top: -10px;
+  margin-left: 30px;
+  margin-inline-end: 40px;
+}
+
+.b7 {
+  margin-left: 100px;
+}
+
+.b8 {
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  margin-top: -10px;
+  margin-left: 30px;
+  margin-inline-end: 40px;
+
+}
+
+.b9 {
+  color: steelblue;
+  font-size: 18px;
+  margin-top: -10px;
+  margin-left: 30px;
+
+}
+
+.b10 {
+  color: darkblue;
+  font-size: 12px;
+  margin-left: 500px;
+  margin-top: 0px;
+}
+
+.b11 {
+  color: darkblue;
+  font-size: 12px;
+  margin-left: 600px;
+  margin-top: -10px;
+}
+
+nav {
+  display: inline-block;
+  background-color: #c7eefc;
+  padding: 10px;
+  margin-top: auto;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+nav a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #426eaf;
+  color: azure;
+}
+
+.top1{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #c7eefc;
+
+}
+
+footer{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing:auto;
+  margin-top: 0px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: #426eaf;
+}
