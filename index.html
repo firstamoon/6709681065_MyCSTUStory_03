@@ -3,6 +3,7 @@
 
 <head>
     <title>My CSTU Story</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
     <style>
         .container1 {
             display: grid;
-            grid-template-columns: 300px 300px 300px 300px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
             gap: 7px;
             padding: 10px;
         }
@@ -60,18 +61,22 @@
 </head>
 
 <body>
-    <header class="box-img">
-        <blockquote>
-            <h4 class="b1">&nbsp;</h4>
-            <a href="index.html" class="pacifico-regular2"><u>my cstu story</u></a>
-        </blockquote>
-        <h1 class="pacifico-regular">
+    <div class="row">
+        <div class="col-12 header"></div>
+
+        <header class="box-img">
             <blockquote>
-                &nbsp;&nbsp;&nbsp;&nbsp;Kanyanat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Krabung
+                <h4 class="b1">&nbsp;</h4>
+                <a href="index.html" class="pacifico-regular2"><u>my cstu story</u></a>
             </blockquote>
-        </h1>
-        <h6>&nbsp;</h6>
-    </header>
+            <h1>&nbsp;</h1>
+            <h1>&nbsp;</h1>
+        </header>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-3 sidebar"></div>
+        <div class="col-12 col-md-9 conteant"></div>
+    </div>
     <nav>
         <center>
             <ul class="comfortta"><b>
@@ -99,7 +104,8 @@
         </section>
         <section>
             <center>
-                <p class="b3"><b>name : Kanyanat Krabung &nbsp;&nbsp;&nbsp;&nbsp;nickname : FIRST</b></p>
+                <p class="b3"><b>name : Kanyanat Krabung </b></p>
+                <p class="b3"><b>nickname : FIRST</b></p>
             </center>
             <center>
                 <p class="b5"><b>student id : 6709681065</b></p>
@@ -195,46 +201,50 @@
         </div>
     </main>
 
-    <footer>
-        <div class="container1">
-            <div>
-                <p class="comfortta">
-                    <a href="index.html" style="color: azure;">home</a>
-                </p>
-                <ul class="prompt-extralight">
-                    <li>แนะนำตนเอง</li>
-                    <li>ข้อมูลส่วนตัว</li>
-                    <li>ช่องทางการติดต่อ</li>
-                    <li>life style</li>
-                    <li>vdo แนะนำตนเอง</li>
-                </ul>
+    <div class="row">
+        <div class="col-12 header"></div>
+
+        <footer>
+            <div class="container1">
+                <div>
+                    <p class="comfortta">
+                        <a href="index.html" style="color: azure;">home</a>
+                    </p>
+                    <ul class="prompt-extralight">
+                        <li>แนะนำตนเอง</li>
+                        <li>ข้อมูลส่วนตัว</li>
+                        <li>ช่องทางการติดต่อ</li>
+                        <li>life style</li>
+                        <li>vdo แนะนำตนเอง</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="comfortta">
+                        <a href="myfuture.html" style="color: azure;">my future</a>
+                    </p>
+                    <ul class="prompt-extralight">
+                        <li>DPDD</li>
+                        <li>AI</li>
+                        <li>การประกอบอาชีพ</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="comfortta">
+                        <a href="myjourney.html" style="color: azure;">my journey</a>
+                    </p>
+                    <ul class="prompt-extralight">
+                        <li>about journey</li>
+                        <li>แกน</li>
+                        <li>PR</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <p class="comfortta">
-                    <a href="myfuture.html" style="color: azure;">my future</a>
-                </p>
-                <ul class="prompt-extralight">
-                    <li>DPDD</li>
-                    <li>AI</li>
-                    <li>การประกอบอาชีพ</li>
-                </ul>
-            </div>
-            <div>
-                <p class="comfortta">
-                    <a href="myjourney.html" style="color: azure;">my journey</a>
-                </p>
-                <ul class="prompt-extralight">
-                    <li>about journey</li>
-                    <li>แกน</li>
-                    <li>PR</li>
-                </ul>
-            </div>
-        </div>
-        <h5>
-            <center>assign 2 : Static Website Developing & Deploying My CSTU Story Website
-                and Practicing Extended Git Workflow <br><br> kanynat krabung #6709681065# </center>
-        </h5>
-    </footer>
+            <h5>
+                <center>assign 2 : Static Website Developing & Deploying My CSTU Story Website
+                    and Practicing Extended Git Workflow <br><br> kanynat krabung #6709681065# </center>
+            </h5>
+        </footer>
+    </div>
 </body>
 
 </html>
