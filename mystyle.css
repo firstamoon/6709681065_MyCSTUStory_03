@@ -8,6 +8,20 @@ body {
 
 }
 
+@media (max-width: 768px) {
+  .container1 {
+      grid-template-columns: 1fr 1fr; 
+  }
+  
+  .container2 {
+      grid-template-columns: 1fr; 
+  }
+
+  .container3 {
+      grid-template-columns: 1fr; 
+  }
+}
+
 .pacifico-regularOG {
   color: rgb(55, 55, 57);
   font-family: "Pacifico", cursive;
@@ -105,6 +119,17 @@ h6 {
   margin-bottom: 0px;
 
 
+}
+
+.box-img3 {
+  background-image: url(resources/1.png);
+  background-size: 40%;
+
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
 
 /*Top box*/
